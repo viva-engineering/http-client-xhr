@@ -1,0 +1,31 @@
+{
+  "name": "@viva-eng/http-client-xhr",
+  "version": "1.0.8",
+  "description": "A utility for interacting with HTTP APIs using XHR (browser)",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc --build tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viva-engineering/http-client-xhr.git"
+  },
+  "keywords": [
+    "http-client",
+    "xhr",
+    "browser"
+  ],
+  "author": "James Brumond <james@jbrumond.me> (http://www.jbrumond.me)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viva-engineering/http-client-xhr/issues"
+  },
+  "homepage": "https://github.com/viva-engineering/http-client-xhr#readme",
+  "devDependencies": {
+    "tslint": "^5.14.0",
+    "typescript": "^3.3.4000"
+  },
+  "dependencies": {
+    "@viva-eng/logger-web": "^1.0.0"
+  }
+}
